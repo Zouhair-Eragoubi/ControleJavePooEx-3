@@ -9,20 +9,13 @@ public class DossierRevenus extends Dossier{
 		this.ca = ca;
 		this.calculerMontant();
 	}
-	
-	
-
 	public double getCa() {
 		return ca;
 	}
 
-
-
 	public void setCa(double ca) {
 		this.ca = ca;
 	}
-
-
 
 	@Override
 	void calculerMontant() {

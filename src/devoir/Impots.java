@@ -37,7 +37,10 @@ public class Impots {
 	@Override
 	public String toString() {
 		String result = "Liste des impots : "+ this.annee +"\n ";
-		result += this.dossiers.toString();
+		for (Dossier dossier : dossiers) {
+			result += dossier.toString();
+		}
+		
 		result += "Total :" + this.totalImpot;
 		return result;
 	}

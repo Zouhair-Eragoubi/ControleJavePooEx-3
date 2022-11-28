@@ -26,8 +26,4 @@ abstract class Dossier {
 	
 	abstract void calculerMontant();
 	
-	
-	
-	
-
 }
